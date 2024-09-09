@@ -1,0 +1,106 @@
+/* Estilos gerais para a aplicação */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que o rodapé fique na parte inferior */
+}
+
+/* Estilos para o cabeçalho */
+.App-header {
+  background-color: #282c34;
+  min-height: 80vh; /* Ajuste a altura mínima conforme necessário */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  margin-bottom: 0; /* Remove a margem inferior do cabeçalho */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo das imagens */
+.image-hover-effect {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.image-hover-effect:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem quando o mouse passa sobre ela */
+  filter: brightness(1.2); /* Aumenta o brilho da imagem quando o mouse passa sobre ela */
+}
+
+/* Estilo dos ícones e links */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o espaço entre os ícones */
+  flex-wrap: wrap; /* Permite que os ícones quebrem a linha em telas menores */
+}
+
+.icon-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #61dafb;
+  transition: transform 0.3s, background-color 0.3s;
+  border-radius: 3px;
+}
+
+.icon-container a:hover {
+  transform: scale(1.2);
+  background-color: rgba(97, 218, 251, 0.2);
+}
+
+/* Estilo dos ícones */
+.icon-img {
+  width: 24px; /* Ajuste o tamanho do ícone */
+  height: 24px; /* Ajuste o tamanho do ícone */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-img:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do ícone quando o mouse passa sobre ele */
+  filter: brightness(1.2); /* Aumenta o brilho do ícone quando o mouse passa sobre ele */
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto; /* Faz o rodapé se mover para o fundo da página */
+}
+
+/* Efeito de brilho */
+@keyframes brilho {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Adiciona animação de brilho e flutuar ao título */
+.my-4 {
+  animation: brilho 1.5s infinite; /* Animação de brilho */
+  transition: transform 0.3s ease; /* Suaviza a transformação */
+}
+
+
+
