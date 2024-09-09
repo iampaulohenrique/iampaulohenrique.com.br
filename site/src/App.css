@@ -1,20 +1,16 @@
 /* Estilos gerais para a aplicação */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 25vmin;
-  pointer-events: none;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: transform 0.3s, background-color 0.3s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que o rodapé fique na parte inferior */
 }
 
 /* Estilos para o cabeçalho */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh; /* Ajuste a altura mínima conforme necessário */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,69 +38,27 @@
   background-color: rgba(97, 218, 251, 0.8);
 }
 
-/* Botão específico para 'Sobre' */
-.about-button {
-  background-color: #4CAF50; /* Cor verde */
-}
-
-.about-button:hover {
-  background-color: #45a049; /* Verde escuro */
-}
-
-/* Botão específico para 'Contatos' */
-.contact-button {
-  background-color: #f44336; /* Cor vermelha */
-}
-
-.contact-button:hover {
-  background-color: #d32f2f; /* Vermelho escuro */
-}
-
-/* Estilo dos títulos e parágrafos */
-h1 {
-  font-size: 2em;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-p {
-  font-size: 1;
-  max-width: 1000px;
-  line-height: 1;
-  padding: 5px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-/* Novo estilo para o contêiner dos ícones */
-.icon-container {
+.image-container {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  gap: 10px; /* Espaçamento entre os ícones */
-  flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0;
+  padding: 40px;
 }
 
-/* Estilos para os ícones */
+.image-hover-effect {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.image-hover-effect:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem quando o mouse passa sobre ela */
+  filter: brightness(1.2); /* Aumenta o brilho da imagem quando o mouse passa sobre ela */
+}
+
+
 .App-link, .discord, .Github, .linkedin, .certificados {
-  color: #61dafb;
-  font-size: 1.2em;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.App-link:hover, .discord:hover, .Github:hover, .linkedin:hover, .certificados:hover {
-  transform: scale(1.1);
-  background-color: rgba(97, 218, 251, 0.2);
-}
-
-/* Ajusta a classe 'Sobre' */
-.Sobre {
   color: #61dafb;
   font-size: 1.2em;
   text-decoration: none;
@@ -115,23 +69,15 @@ p {
   transition: transform 0.3s, background-color 0.3s;
 }
 
-.Sobre:hover {
+.App-link:hover, .discord:hover, .Github:hover, .linkedin:hover, .certificados:hover {
   transform: scale(1.1);
   background-color: rgba(97, 218, 251, 0.2);
 }
-/* Rodapé */
-.footer {
-  background-color: #282c34; /* Cor de fundo do rodapé, pode ser ajustada */
-  color: #ffffff; /* Cor do texto do rodapé */
-  padding: 10px 20px; /* Espaçamento interno */
-  margin-top: auto; /* Empurra o rodapé para o final da página */
-  text-align: center; /* Centraliza o texto */
-  font-size: 0.9em; /* Tamanho da fonte do texto do rodapé */
-}
 
-/* Adiciona margem em cima e embaixo */
+/* Estilo do rodapé */
 .footer {
-  margin-top: 0px; /* Margem superior */
-  margin-bottom: 0px; /* Margem inferior */
- 
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
