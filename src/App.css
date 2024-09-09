@@ -24,6 +24,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #282c34;
 }
 
 /* Estilo das imagens */
@@ -43,7 +44,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Ajuste o espaço entre os ícones */
+  gap: 25px; /* Ajuste o espaço entre os ícones */
   flex-wrap: wrap; /* Permite que os ícones quebrem a linha em telas menores */
 }
 
