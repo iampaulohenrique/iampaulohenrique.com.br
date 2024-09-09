@@ -1,4 +1,9 @@
 import logo from './imagens/logo.svg';
+import instagramIcon from './imagens/icons/instagram.svg';
+import githubIcon from './imagens/icons/github.svg';
+import discordIcon from './imagens/icons/discord.svg';
+import linkedinIcon from './imagens/icons/linkedin.svg';
+import certificadoIcon from './imagens/icons/certificados.png';
 import './App.css';
 
 function App() {
@@ -17,11 +22,17 @@ function App() {
         <p>Atenciosamente, Paulo Henrique 👨‍💻</p>
         
         <div className="icon-container">
-          <a href="https://www.instagram.com/iampaulohen" className="App-link" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://github.com/iampaulohenrique" className="Github" target="_blank" rel="noopener noreferrer">Github</a>
-          <a href="https://discord.gg/c9SwrXDqMK" className="discord" target="_blank" rel="noopener noreferrer">Discord</a>
-          <a href="https://www.linkedin.com/in/iampaulohenrique" className="linkedin" target="_blank" rel="noopener noreferrer">Linkedin</a>
-          <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" className="certificados" target="_blank" rel="noopener noreferrer">Certificados</a>
+          <a href="https://www.instagram.com/iampaulohen" className="App-link" target="_blank" rel="noopener noreferrer">
+          <img src={instagramIcon} alt="Instagram" />Instagram</a>
+          <a href="https://github.com/iampaulohenrique" className="Github" target="_blank" rel="noopener noreferrer">
+          <img src={githubIcon} alt="imagem github"/>Github</a>
+          <a href="https://discord.gg/c9SwrXDqMK" className="discord" target="_blank" rel="noopener noreferrer">
+          <img src={discordIcon} alt="imagem discord"/>Discord</a>
+          <a href="https://www.linkedin.com/in/iampaulohenrique" className="linkedin" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinIcon} alt="imagem linkedin"/> Linkedin</a>
+          <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" className="certificados" target="_blank" rel="noopener noreferrer">
+          <img src={certificadoIcon} alt="imagem certificados "/> Certificados</a>
+       
         </div>
       </header>
       <footer className="footer">

@@ -81,3 +81,43 @@
   padding: 20px;
   text-align: center;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o espaço entre os ícones */
+}
+
+.icon-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.icon-container img {
+  width: 30px; /* Ajuste o tamanho do ícone */
+  height: 30px; /* Ajuste o tamanho do ícone */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Github {
+  color: #61dafb;
+}
+
+.discord {
+  color: #61dafb;
+}
+
+.linkedin {
+  color: #61dafb;
+}
+
+.certificado {
+  color: #61dafb;
+}
+
