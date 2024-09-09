@@ -15,49 +15,19 @@ function App() {
         <p>Obrigado por visitar, e espero que você encontre algo inspirador por aqui!</p>
         <p>Atenciosamente, Paulo Henrique 👨‍💻</p>
         
-        <a
-          className="App-link"
-          href="https://www.instagram.com/iampaulohen"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Instagram
-        </a>
-        <a
-          className="discord"
-          href="https://discord.gg/c9SwrXDqMK"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Discord
-        </a>
-        <a
-        className="Github"
-        href="https://github.com/iampaulohenrique"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          Github
-        </a>
-        <a
-        className="linkedin"
-        href="https://www.linkedin.com/in/iampaulohenrique?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          Linkedin
-        </a>
-        <a 
-        className="certificados"
-        href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          Certificados
-        </a>
+        <div class="icon-container">
+    <a href="https://www.instagram.com/iampaulohen" class="App-link" target="_blank" rel="noopener noreferrer" >Instagram</a>
+    <a href="https://github.com/iampaulohenrique" class="Github" target="_blank" rel="noopener noreferrer" >Github</a>
+    <a href="https://discord.gg/c9SwrXDqMK" class="discord" target="_blank" rel="noopener noreferrer" >Discord</a>
+    <a href="https://www.linkedin.com/in/iampaulohenrique" class="linkedin"target="_blank" rel="noopener noreferrer" >Linkedin</a>
+    <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" class="certificados" target="_blank" rel="noopener noreferrer">Certificados</a>
+      </div>
       </header>
+      <footer class="footer">
+      Copyright © 2024. Todos os direitos reservados
+  </footer>
+</div>
     
-    </div>
   );
 }
 
