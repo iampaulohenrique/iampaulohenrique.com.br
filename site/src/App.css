@@ -95,12 +95,6 @@
   text-decoration: none;
 }
 
-.icon-container img {
-  width: 30px; /* Ajuste o tamanho do ícone */
-  height: 30px; /* Ajuste o tamanho do ícone */
-  margin-right: 8px; /* Espaço entre o ícone e o texto */
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -120,4 +114,88 @@
 .certificado {
   color: #61dafb;
 }
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.image-hover-effect {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.icon-img {
+  width: 24px; /* Ajuste o tamanho do ícone */
+  height: 24px; /* Ajuste o tamanho do ícone */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.icon-container a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.icon-container a:hover {
+  transform: scale(1.1);
+  background-color: rgba(97, 218, 251, 0.2);
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.image-hover-effect {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.icon-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+  background-color: rgba(97, 218, 251, 0.2);
+}
+
+.icon-img {
+  width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+  height: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
 
