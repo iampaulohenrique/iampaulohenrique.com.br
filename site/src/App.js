@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './imagens/logo.svg';
 import instagramIcon from './imagens/icons/instagram.svg';
 import githubIcon from './imagens/icons/github.svg';
@@ -12,7 +13,7 @@ function App() {
       <header className="App-header container text-center">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <img src={logo} alt="uma imagem em desenho do Paulo Henrique" className="image-hover-effect img-fluid" />
+            <img src={logo} alt="Uma imagem em desenho do Paulo Henrique" className="image-hover-effect img-fluid" />
           </div>
         </div>
         
@@ -24,30 +25,30 @@ function App() {
         <p className="my-2">Atenciosamente, Paulo Henrique 👨‍💻</p>
         
         <div className="icon-container d-flex justify-content-center flex-wrap my-4">
-          <a href="https://www.instagram.com/iampaulohen" className="d-flex align-items-center mx-2" target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" className="icon-img" />
+          <a href="https://www.instagram.com/iampaulohen" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" className="icon-img me-2" />
             Instagram
           </a>
-          <a href="https://github.com/iampaulohenrique" className="d-flex align-items-center mx-2" target="_blank" rel="noopener noreferrer">
-            <img src={githubIcon} alt="Github" className="icon-img" />
+          <a href="https://github.com/iampaulohenrique" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={githubIcon} alt="Github" className="icon-img me-2" />
             Github
           </a>
-          <a href="https://discord.gg/c9SwrXDqMK" className="d-flex align-items-center mx-2" target="_blank" rel="noopener noreferrer">
-            <img src={discordIcon} alt="Discord" className="icon-img" />
+          <a href="https://discord.gg/c9SwrXDqMK" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={discordIcon} alt="Discord" className="icon-img me-2" />
             Discord
           </a>
-          <a href="https://www.linkedin.com/in/iampaulohenrique" className="d-flex align-items-center mx-2" target="_blank" rel="noopener noreferrer">
-            <img src={linkedinIcon} alt="LinkedIn" className="icon-img" />
+          <a href="https://www.linkedin.com/in/iampaulohenrique" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinIcon} alt="LinkedIn" className="icon-img me-2" />
             LinkedIn
           </a>
-          <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" className="d-flex align-items-center mx-2" target="_blank" rel="noopener noreferrer">
-            <img src={certificadosIcon} alt="Certificados" className="icon-img" />
+          <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={certificadosIcon} alt="Certificados" className="icon-img me-2" />
             Certificados
           </a>
         </div>
       </header>
       <footer className="footer text-center py-3">
-        Copyright © 2024. Todos os direitos reservados
+         © 2024 Paulo Henrique
       </footer>
     </div>
   );

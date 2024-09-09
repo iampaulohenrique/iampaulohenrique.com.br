@@ -17,35 +17,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
-/* Estilo dos botões */
-.button {
-  font-size: 1em;
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #61dafb;
-  color: #282c34;
-  cursor: pointer;
-  transition: transform 0.3s, background-color 0.3s;
-  outline: none;
-}
-
-.button:hover {
-  transform: scale(1.1);
-  background-color: rgba(97, 218, 251, 0.8);
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 0;
-  padding: 40px;
-}
-
+/* Estilo das imagens */
 .image-hover-effect {
   width: 150px; /* Ajuste o tamanho conforme necessário */
   height: auto;
@@ -57,145 +32,46 @@
   filter: brightness(1.2); /* Aumenta o brilho da imagem quando o mouse passa sobre ela */
 }
 
-
-.App-link, .discord, .Github, .linkedin, .certificados {
-  color: #61dafb;
-  font-size: 1.2em;
-  text-decoration: none;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block;
-  transition: transform 0.3s, background-color 0.3s;
+/* Estilo dos ícones e links */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o espaço entre os ícones */
+  flex-wrap: wrap; /* Permite que os ícones quebrem a linha em telas menores */
 }
 
-.App-link:hover, .discord:hover, .Github:hover, .linkedin:hover, .certificados:hover {
-  transform: scale(1.1);
+.icon-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #61dafb;
+  transition: transform 0.3s, background-color 0.3s;
+  border-radius: 3px;
+}
+
+.icon-container a:hover {
+  transform: scale(1.2);
   background-color: rgba(97, 218, 251, 0.2);
+}
+
+/* Estilo dos ícones */
+.icon-img {
+  width: 24px; /* Ajuste o tamanho do ícone */
+  height: 24px; /* Ajuste o tamanho do ícone */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-img:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do ícone quando o mouse passa sobre ele */
+  filter: brightness(1.2); /* Aumenta o brilho do ícone quando o mouse passa sobre ele */
 }
 
 /* Estilo do rodapé */
 .footer {
   background-color: #282c34;
   color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; /* Ajuste o espaço entre os ícones */
-}
-
-.icon-container a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.Github {
-  color: #61dafb;
-}
-
-.discord {
-  color: #61dafb;
-}
-
-.linkedin {
-  color: #61dafb;
-}
-
-.certificado {
-  color: #61dafb;
-}
-
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
-}
-
-.image-hover-effect {
-  height: auto;
-  max-width: 100%;
-  border-radius: 5px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.icon-img {
-  width: 24px; /* Ajuste o tamanho do ícone */
-  height: 24px; /* Ajuste o tamanho do ícone */
-  margin-right: 8px; /* Espaço entre o ícone e o texto */
-}
-
-.icon-container a {
-  color: #61dafb;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.icon-container a:hover {
-  transform: scale(1.1);
-  background-color: rgba(97, 218, 251, 0.2);
-}
-
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
-}
-
-.image-hover-effect {
-  height: auto;
-  max-width: 100%;
-  border-radius: 5px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.icon-link {
-  color: #61dafb;
-  text-decoration: none;
-  font-size: 1.2em;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.icon-link:hover {
-  transform: scale(1.1);
-  background-color: rgba(97, 218, 251, 0.2);
-}
-
-.icon-img {
-  width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
-  height: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
-  margin-right: 8px; /* Espaço entre o ícone e o texto */
-}
-
-.footer {
-  background-color: #282c34;
-  color: white;
   padding: 10px 0;
   text-align: center;
 }
-
-
-
-
