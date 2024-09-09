@@ -1,4 +1,4 @@
-/* App.css */
+
 
 /* Estilos gerais para a aplicação */
 .App {
@@ -6,8 +6,11 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 25vmin;
   pointer-events: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 /* Estilos para o cabeçalho */
@@ -63,7 +66,7 @@
 
 
 h1 {
-  font-size: 1em;
+  font-size: 2em;
   margin: 0;
 }
 h2{

@@ -9,7 +9,6 @@ function App() {
         
         
         <h1>Seja vem vindo!</h1>
-        <h2>Sobre</h2>
         <p>Tenho 24 anos e sou estudante de Ciência da Computação. Minha paixão por tecnologia e programação é o que me impulsiona a explorar novas ideias e soluções inovadoras no campo da informática. 💻✨</p>
         <p>Neste site, você encontrará informações sobre o meu trabalho, projetos em que estou envolvido e as áreas que mais me fascinam. 🚀🔍 É também um ponto de contato para futuras colaborações e projetos interessantes. 💼🤝</p>
         <p>Sinta-se à vontade para explorar, conhecer mais sobre o que faço e entrar em contato para qualquer dúvida ou proposta. Estou sempre aberto a novas oportunidades e desafios! </p>

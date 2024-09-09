@@ -3,6 +3,7 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  // Atualize o texto esperado conforme o conteúdo atual do componente
+  const linkElement = screen.getByText(/Seja bem-vindo!/i); // ou o texto correto
   expect(linkElement).toBeInTheDocument();
 });
