@@ -18,6 +18,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
+  margin-bottom: 0; /* Remove a margem inferior do cabeçalho */
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* Estilo das imagens */
@@ -74,4 +80,7 @@
   color: white;
   padding: 10px 0;
   text-align: center;
+  margin-top: auto; /* Faz o rodapé se mover para o fundo da página */
 }
+
+
