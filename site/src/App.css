@@ -83,4 +83,24 @@ body {
   margin-top: auto; /* Faz o rodapé se mover para o fundo da página */
 }
 
+/* Efeito de brilho */
+@keyframes brilho {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Adiciona animação de brilho e flutuar ao título */
+.my-4 {
+  animation: brilho 1.5s infinite; /* Animação de brilho */
+  transition: transform 0.3s ease; /* Suaviza a transformação */
+}
+
+
 
