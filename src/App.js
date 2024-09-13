@@ -28,10 +28,7 @@ function App() {
         </div>
         
         <div className="icon-container d-flex justify-content-center flex-wrap my-4">
-          <a href="https://www.instagram.com/iampaulohen" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" className="icon-img me-2" />
-            Instagram
-          </a>
+          
           <a href="https://github.com/iampaulohenrique" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github" className="icon-img me-2" />
             Github
@@ -47,6 +44,10 @@ function App() {
           <a href="https://drive.google.com/drive/folders/1yBLvbexCsdAmRVmvDHL3gXczzR8dEzQB" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
             <img src={certificadosIcon} alt="Certificados" className="icon-img me-2" />
             Certificados
+          </a>
+          <a href="https://www.instagram.com/iampaulohen" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" className="icon-img me-2" />
+            Instagram
           </a>
           <a href="ADICIONAR" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
             <img src={projetosIcon} alt="Projetos" className="icon-img me-2" />
@@ -65,7 +66,7 @@ function App() {
           <a href= "https://www.amazon.com.br/dp/8595081530" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
           <li>O homem mais rico da Babilônia</li>
           </a>
-          <a href="Titanic: Desvendando os Segredos do Naufrágio" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.amazon.com.br/gp/product/B0C8XVF16V/ref=ppx_yo_dt_b_d_asin_title_351_o01?ie=UTF8&psc=14" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
             <li>Titanic: Desvendando os Segredos do Naufrágio</li>
           </a>
           
