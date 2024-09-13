@@ -5,6 +5,7 @@ import githubIcon from './imagens/icons/github.svg';
 import discordIcon from './imagens/icons/discord.svg';
 import linkedinIcon from './imagens/icons/linkedin.svg';
 import certificadosIcon from './imagens/icons/certificados.png';
+import projetosIcon from './imagens/icons/projetos.svg'
 import './App.css';
 
 function App() {
@@ -17,12 +18,14 @@ function App() {
           </div>
         </div>
         
+        <div>
         <h1 className="my-4">Seja bem-vindo!</h1>
-        <p className="my-2">Tenho 24 anos e sou estudante de Ciência da Computação. Minha paixão por tecnologia e programação é o que me impulsiona a explorar novas ideias e soluções inovadoras no campo da informática. 💻✨</p>
+        <p className="my-2">Tenho 24 anos e sou estudante de Ciência da Computação. Minha paixão por tecnologia e programação é o que me impulsiona a explorar novas ideias e soluções inovadoras no campo da programação. 💻✨</p>
         <p className="my-2">Neste site, você encontrará informações sobre o meu trabalho, projetos em que estou envolvido e as áreas que mais me fascinam. 🚀🔍 É também um ponto de contato para futuras colaborações e projetos interessantes. 💼🤝</p>
         <p className="my-2">Sinta-se à vontade para explorar, conhecer mais sobre o que faço e entrar em contato para qualquer dúvida ou proposta. Estou sempre aberto a novas oportunidades e desafios!</p>
-        <p className="my-2">Obrigado por visitar, e espero que você encontre algo inspirador por aqui!</p>
+        <p className="my-4">Claro que esse texto foi criado por IA.</p>
         <p className="my-2">Atenciosamente, Paulo Henrique 👨‍💻</p>
+        </div>
         
         <div className="icon-container d-flex justify-content-center flex-wrap my-4">
           <a href="https://www.instagram.com/iampaulohen" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
@@ -45,6 +48,30 @@ function App() {
             <img src={certificadosIcon} alt="Certificados" className="icon-img me-2" />
             Certificados
           </a>
+          <a href="ADICIONAR" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <img src={projetosIcon} alt="Projetos" className="icon-img me-2" />
+            Projetos
+            </a>
+        </div>
+
+        <div>
+        <h1 className="my-04"> Livros que eu recomendo</h1>
+          <a href= "https://www.amazon.com.br/dp/6555602341" className="d-flex align-items-stretch mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+          <li>Amazon sem limites: Jeff Bezos e a invenção de um império global</li>
+          </a>
+          <a href="https://www.amazon.com.br/dp/8575422391" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+          <li> Os segredos da mente milionária</li>
+          </a>
+          <a href= "https://www.amazon.com.br/dp/8595081530" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+          <li>O homem mais rico da Babilônia</li>
+          </a>
+          <a href="Titanic: Desvendando os Segredos do Naufrágio" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
+            <li>Titanic: Desvendando os Segredos do Naufrágio</li>
+          </a>
+          
+          
+        
+        
         </div>
       </header>
       <footer className="footer text-center py-3">
