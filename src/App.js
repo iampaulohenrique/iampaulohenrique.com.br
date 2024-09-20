@@ -28,7 +28,7 @@ function App() {
         </div>
         
         <div className="icon-container d-flex justify-content-center flex-wrap my-4">
-          
+         
           <a href="https://github.com/iampaulohenrique" className="d-flex align-items-center mx-2 text-decoration-none" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github" className="icon-img me-2" />
             Github
